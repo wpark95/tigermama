@@ -1,13 +1,10 @@
 import React from 'react';
-// import axios from 'axios';
 import {
   NavLink,
   Link
 } from 'react-router-dom';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faInstagram } from "@fortawesome/free-brands-svg-icons"
-
-const instagramIcon = <FontAwesomeIcon icon={faInstagram} />
+import { Icon } from '@iconify/react';
+import instagramIcon from '@iconify-icons/simple-icons/instagram';
 
 const header = () => (
   <div className="navbar-container">
@@ -41,7 +38,7 @@ const header = () => (
         </li>
         <li>
           <Link to={{ pathname: "https://www.instagram.com/tigermamaburgers/?igshid=2p0ofgu631ib" }} target="_blank">
-            {instagramIcon}
+            <Icon icon={instagramIcon} />
           </Link>
         </li>
       </ul>

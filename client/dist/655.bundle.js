@@ -1,1 +1,0 @@
-(self.webpackChunkTigerMama=self.webpackChunkTigerMama||[]).push([[655],{655:(e,t,a)=>{"use strict";a.r(t),a.d(t,{default:()=>c});var n=a(294);const c=function(){return n.createElement("div",{className:"body-container body-container-contact"},n.createElement("h1",null,"Contact Us!"),n.createElement("h2",null,"(702) 937 - 5958"))}}}]);

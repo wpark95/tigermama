@@ -1,9 +1,5 @@
 import React from 'react';
 
-import {
-  NavLink,
-} from 'react-router-dom';
-
 const orderOnline = () => (
   <div className="body-container body-container-contact">
     <h1>Contact Us!</h1>
