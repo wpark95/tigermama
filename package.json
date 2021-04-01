@@ -8,9 +8,9 @@
   "description": "Dallas",
   "main": "webpack.config.js",
   "scripts": {
-    "react-dev": "webpack --watch --config webpack.config.js",
+    "react-dev": "webpack --watch --mode=development",
     "start": "node ./server/server.js",
-    "build": "webpack --mode=development"
+    "build": "webpack --mode=production"
   },
   "author": "Will Park",
   "license": "ISC",
