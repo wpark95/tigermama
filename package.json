@@ -6,7 +6,8 @@
   "scripts": {
     "react-dev": "webpack --watch --config webpack.config.js",
     "server-dev": "node ./server/server.js",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "start": "webpack --watch --config webpack.config.js && node./server/server/js"
   },
   "author": "Will Park",
   "license": "ISC",
