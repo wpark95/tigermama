@@ -17,25 +17,19 @@ const ContactUs = lazy(() => import('./ContactUs'));
 const Menu = lazy(() => import('./Menu'));
 
 const app = () => (
-
   <Router>
     <div className="app">
     <Suspense fallback={<div>Loading...</div>}>
-
       <Header />
     </Suspense>
-
-        <Switch>
-        <Suspense fallback={<div>Loading...</div>}>
-          <Route path="/order-online" component={OrderOnline} />
-          <Route path="/contact" component={ContactUs} />
-          <Route path="/menu" component={Menu} />
-        </Suspense>
-          <Route path="/" component={Home} />
-        </Switch>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Route path="/order-online" component={OrderOnline} />
+      <Route path="/contact" component={ContactUs} />
+      <Route path="/menu" component={Menu} />
+    </Suspense>
+      <Route exact path="/" component={Home} />
     </div>
   </Router>
-
 );
 
 export default app;
