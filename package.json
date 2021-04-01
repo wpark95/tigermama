@@ -1,6 +1,10 @@
 {
   "name": "TigerMama",
   "version": "1.0.0",
+  "engines": {
+    "node": "10.19.0",
+    "npm": "7.7.6"
+  },
   "description": "Dallas",
   "main": "webpack.config.js",
   "scripts": {
