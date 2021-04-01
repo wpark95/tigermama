@@ -1,6 +1,7 @@
 body {
     background-color: black;
     color: azure;
+    font-family: Verdana, Helvetica, sans-serif;
 }
 
 /* @@@@@ Header Start @@@@@ */
@@ -46,6 +47,7 @@ body {
 /* Header Links Color*/
 li {
     color: azure;
+    font-weight: bold;
     list-style-type: none;
     padding-right: 30px;
     font-size: 30px;
@@ -56,13 +58,21 @@ li :visited {
 }
 
 li :hover {
-    color: orange;
+    color: rgb(214, 104, 0);
 }
 
 li :active {
-    color: orange;
+    color: rgb(214, 104, 0);
 }
 
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+li .selected {
+    color: rgb(214, 104, 0);
+}
 
 /* @@@@@ Header End @@@@@ */
 
@@ -81,7 +91,7 @@ li :active {
 
 /* Main Video  */
 #main-video {
-    max-width: 100%;
+    max-width: 75%;
 }
 
 /* @@@ Home End @@@ */
