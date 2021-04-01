@@ -36,7 +36,6 @@ body {
 
 .navbar-tabs {
     display: flex;
-    color: white;
 }
 
 .navbar-tabs-list {
@@ -46,7 +45,7 @@ body {
 
 /* Header Links Color*/
 li {
-    color: white;
+    color: azure;
     list-style-type: none;
     padding-right: 30px;
     font-size: 30px;
