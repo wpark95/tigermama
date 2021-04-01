@@ -10,8 +10,7 @@
   "scripts": {
     "react-dev": "webpack --watch --config webpack.config.js",
     "server-dev": "node ./server/server.js",
-    "start": "webpack",
-    "build": "node ./server/server.js"
+    "start": "node ./server/server.js"
   },
   "author": "Will Park",
   "license": "ISC",
