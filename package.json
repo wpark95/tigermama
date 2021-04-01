@@ -5,7 +5,8 @@
   "main": "webpack.config.js",
   "scripts": {
     "react-dev": "webpack --watch --config webpack.config.js",
-    "server-dev": "node ./server/server.js"
+    "server-dev": "node ./server/server.js",
+    "webpack": "webpack"
   },
   "author": "Will Park",
   "license": "ISC",
